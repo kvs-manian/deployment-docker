@@ -11,10 +11,10 @@ spec:
   metadata:
     labels:
      app: argo-web
-  spec: 
+  spec:
    containers:
    - name: c1
-     image: kvsmanian/testfb:v27
+     image: kvsmanian/testfb:v28
      imagePullPolicy: Always
      stdin: true
      tty: true
